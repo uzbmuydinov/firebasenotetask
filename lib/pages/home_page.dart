@@ -79,7 +79,8 @@ class _HomePageState extends State<HomePage> with RouteAware{
                 textColor: Colors.black,
                 leading: list[index].imgUrl != null ? CircleAvatar(
                   backgroundImage: NetworkImage(list[index].imgUrl!),
-                ) : const CircleAvatar(
+                ) :  CircleAvatar(
+                maxRadius: 60,
                   backgroundImage: AssetImage("assets/images/img.png"),
                 ),
                 title: Text(list[index].title),

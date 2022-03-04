@@ -47,7 +47,7 @@ class MyApp extends StatelessWidget {
       navigatorObservers: [routeObserver],
       title: 'Fire Note App',
       theme: ThemeData(
-        primarySwatch: Colors.purple,
+        primarySwatch: Colors.deepOrange,
       ),
       home: _startPage(context),
       routes: {
